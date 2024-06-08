@@ -1,8 +1,6 @@
 'use client';
-import Home from '@/components/Home';
 import { motion } from 'framer-motion';
-
-const Page = () => {
+const page = () => {
    return (
       <motion.div
          className='h-full'
@@ -10,9 +8,9 @@ const Page = () => {
          animate={{ y: '0%' }}
          transition={{ duration: 1 }}
       >
-         <Home />
+         Contact
       </motion.div>
    );
 };
 
-export default Page;
+export default page;
